@@ -1,7 +1,7 @@
 applications:
 - name: ekart-api-gateway
   memory: 1024MB
-  route: ekart-api-gateway
+  route: ekart-api-gateway.cfapps.io
   random-route: false
   instances: 1
   path: target/ekart-api-gateway-0.0.4-SNAPSHOT.jar 
